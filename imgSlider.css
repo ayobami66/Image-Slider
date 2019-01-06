@@ -1,0 +1,56 @@
+body{
+min-height: 100vh;
+align-items: center;
+justify-content: center;
+display: flex;
+background: url(imgs/bcg-3.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.images{
+background: red;
+flex: 0 0 80%;
+min-height: 70vh;
+background: url(imgs/bcg-3.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 5px black;
+position: relative;
+}
+.btn{
+    display: inline-block;
+    color:black;
+    background-color:white;
+    border-radius: 20%; 
+    font-family: Arial, Helvetica, sans-serif;
+    outline:none;
+    border: 3px solid black;
+    padding: 0.5rem 0.25rem;
+}
+.prevBtn{
+    position: absolute;
+top: 50%;
+left: 0;
+transform: translate(-50%, -50%);
+cursor:pointer;
+}
+.nextBtn{
+    position: absolute;
+top: 50%;
+right: 0;
+transform: translate(50%, -50%);
+cursor:pointer;
+}
+.btn:active{
+border: none;
+}
+.btn:hover{
+    background-color: tomato;
+}
+
+
+ 
